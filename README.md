@@ -1,4 +1,11 @@
-# Terraform AWS Infrastructure Configuration
+# Cloud Development Environment
+
+This repository covers the creation of a development environment for cloud engineers, whereby anyone who has an aws account configured with vs code can connect to an EC2 instance as the infrastructure needed for this is created through terraform.
+
+## Infrastructure Diagram
+
+![Screenshot 2024-11-25 at 09 21 32](https://github.com/user-attachments/assets/b49df984-1852-4371-a8ea-b2f387e37c58)
+
 
 This repository contains Terraform configurations to provision and manage AWS resources. The `main.tf` file defines key components of a simple infrastructure setup, including a VPC, subnet, and an internet gateway.
 
