@@ -30,6 +30,7 @@ This repository contains Terraform configurations to provision and manage AWS re
 
 - Install Terraform: [Terraform Download](https://www.terraform.io/downloads)
 - Configure AWS credentials locally or using an IAM role.
+- Configure AWS and ssh remote access in your VS code profile.
 
 ## Usage
 
