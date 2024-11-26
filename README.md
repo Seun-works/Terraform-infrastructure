@@ -67,4 +67,8 @@ This repository contains Terraform configurations to provision and manage AWS re
 
 ---
 
+## Future Improvements
+- Add monitoring for connection to EC2 instance
+- Add automated tests to maintain code quality
+
 Let me know if you'd like to customize this further!
