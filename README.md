@@ -6,6 +6,14 @@ This repository covers the creation of a development environment for cloud engin
 
 ![Screenshot 2024-11-25 at 09 21 32](https://github.com/user-attachments/assets/b49df984-1852-4371-a8ea-b2f387e37c58)
 
+The main idea behind this project is for a user to connect to an EC2 instance being used in a VPC. As the diagram depicts, a number of things are needed to be put in place for this to work:
+- VPC whihc hosts most of the networking foundation for the EC2 instance
+- A subnet where the EC2 instance will be hosted.
+- A route table attached to the subnet with a default route poninting to the internet gateway.
+- An Internet gateway that allows connection to the public network.
+- A security group used to ensure no unwanted access to the VPC.
+- An EC2 instance where docker would be hosted for any future development.
+
 
 This repository contains Terraform configurations to provision and manage AWS resources. The `main.tf` file defines key components of a simple infrastructure setup, including a VPC, subnet, and an internet gateway.
 
